@@ -70,7 +70,7 @@ public TestService {
  Customer customer = new Customer();
  CustomerValidator validator = new CustomerValidator();
 
- _notificator.AddErrors(validator.Validate(customer));
+ _notificator.AddError(validator.Validate(customer));
 ```
 
 **To get all errors:**
